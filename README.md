@@ -22,8 +22,8 @@ The same environment as CartPole-v0 but now the average number of timesteps is r
 
 ---
 ### DDQN
-DDQN tries to eliminate the inherent problem of DQN - **overestimation**. The way it does it is through using different 
-target value than DDQ. Namely its the following:
+DDQN tries to eliminate the inherent problem of DQN - **overestimation**. The way it does it is through using a different 
+target value than DQN. Namely its the following:
 
 ![screen shot 2017-09-19 at 1 31 32 am](https://user-images.githubusercontent.com/18519371/30569222-ee9b217c-9cd9-11e7-8bb1-77ddb85f2f39.png)
 
