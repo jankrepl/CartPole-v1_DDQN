@@ -32,7 +32,7 @@ class DDQN_Solver():
         tf.summary.scalar('epsilon', self.epsilon_tensor)
 
         # Build online and target networks
-        self.__build_Q_net(target=False)
+        self.__build_Q_net()
 
         # Merge summaries
         self.overall_summary = tf.summary.merge_all()
